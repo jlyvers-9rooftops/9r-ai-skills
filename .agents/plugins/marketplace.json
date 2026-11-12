@@ -1,0 +1,20 @@
+{
+  "name": "9r-ai-skills",
+  "interface": {
+    "displayName": "9R AI Skills"
+  },
+  "plugins": [
+    {
+      "name": "alc-dashboard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/alc-dashboard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

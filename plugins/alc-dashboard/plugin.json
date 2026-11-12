@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alc-dashboard",
+  "version": "1.0.0",
+  "description": "Generate ALCOSAN municipal meeting dashboards from Municipal Meeting Monitor CSV reports.",
+  "author": {
+    "name": "9R Team"
+  },
+  "repository": "https://github.com/jlyvers-9rooftops/9r-ai-skills",
+  "keywords": [
+    "alcosan",
+    "dashboard",
+    "municipal-meetings"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "ALCOSAN Dashboard",
+        "shortDescription": "Turn municipal meeting CSV reports into executive dashboards.",
+        "developerName": "9R Team",
+        "category": "Productivity"
+      }
+    }
+  }
+}
