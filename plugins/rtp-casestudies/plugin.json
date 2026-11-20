@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rtp-casestudies",
+  "version": "1.0.0",
+  "description": "Create consistent, editable 9Rooftops client case-study PowerPoint files from briefs and supporting evidence.",
+  "author": {
+    "name": "9R Team"
+  },
+  "repository": "https://github.com/jlyvers-9rooftops/9r-ai-skills",
+  "keywords": ["case-study", "powerpoint", "9rooftops", "pitch", "rfp"],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "9Rooftops Case Studies",
+        "shortDescription": "Build consistent PowerPoint case studies from sourced briefs.",
+        "developerName": "9R Team",
+        "category": "Productivity"
+      }
+    }
+  }
+}

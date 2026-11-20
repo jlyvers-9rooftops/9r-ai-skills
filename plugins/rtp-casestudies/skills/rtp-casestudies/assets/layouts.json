@@ -1,0 +1,1009 @@
+{
+  "palette": {
+    "primary": "203044",
+    "accent": "007DA3",
+    "accent_light": "7DD1E8",
+    "accent_dark": "02607B",
+    "surface": "F4F7F9",
+    "ink": "17202A",
+    "muted": "52606D",
+    "rule": "D9E0E5"
+  },
+  "layouts": {
+    "cover": {
+      "slide": 1,
+      "fields": {
+        "category": {
+          "budget": 80,
+          "font_pt": 12.0,
+          "default": "CASE STUDY / DIGITAL EXPERIENCE",
+          "optional": false
+        },
+        "client": {
+          "budget": 65,
+          "font_pt": 22.0,
+          "default": null,
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 54.0,
+          "default": null,
+          "optional": false
+        },
+        "engagement": {
+          "budget": 130,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "credit": {
+          "budget": 140,
+          "font_pt": 10.0,
+          "default": "Prepared by 9Rooftops \u00b7 Digital Experience Team",
+          "optional": false
+        }
+      },
+      "groups": []
+    },
+    "overview": {
+      "slide": 2,
+      "fields": {
+        "title": {
+          "budget": 80,
+          "font_pt": 36.0,
+          "default": "At a Glance",
+          "optional": false
+        },
+        "summary": {
+          "budget": 130,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": false
+        },
+        "client_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE CLIENT",
+          "optional": false
+        },
+        "client_name": {
+          "budget": 65,
+          "font_pt": 17.0,
+          "default": null,
+          "optional": false
+        },
+        "client_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": false
+        },
+        "challenge_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE CHALLENGE",
+          "optional": false
+        },
+        "challenge_title": {
+          "budget": 65,
+          "font_pt": 17.0,
+          "default": null,
+          "optional": false
+        },
+        "challenge_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": false
+        },
+        "approach_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "OUR APPROACH",
+          "optional": false
+        },
+        "approach_title": {
+          "budget": 65,
+          "font_pt": 17.0,
+          "default": null,
+          "optional": false
+        },
+        "approach_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": false
+        },
+        "dates": {
+          "budget": 140,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": false
+        },
+        "deliverables": {
+          "budget": 140,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": false
+        }
+      },
+      "groups": []
+    },
+    "approach_cards": {
+      "slide": 3,
+      "fields": {
+        "section": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE APPROACH",
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 28.0,
+          "default": null,
+          "optional": false
+        },
+        "intro": {
+          "budget": 130,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "card_1_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": false
+        },
+        "card_1_body": {
+          "budget": 150,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": false
+        },
+        "card_2_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "card_2_body": {
+          "budget": 150,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "card_3_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "card_3_body": {
+          "budget": 150,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "card_4_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "card_4_body": {
+          "budget": 150,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "card_5_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "card_5_body": {
+          "budget": 150,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "card_6_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "card_6_body": {
+          "budget": 150,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        }
+      },
+      "groups": [
+        {
+          "fields": [
+            "card_2_title",
+            "card_2_body"
+          ],
+          "bounds": [
+            4312920,
+            2743200,
+            3535680,
+            1783080
+          ]
+        },
+        {
+          "fields": [
+            "card_3_title",
+            "card_3_body"
+          ],
+          "bounds": [
+            8077200,
+            2743200,
+            3535680,
+            1783080
+          ]
+        },
+        {
+          "fields": [
+            "card_4_title",
+            "card_4_body"
+          ],
+          "bounds": [
+            548640,
+            4754880,
+            3535680,
+            1783080
+          ]
+        },
+        {
+          "fields": [
+            "card_5_title",
+            "card_5_body"
+          ],
+          "bounds": [
+            4312920,
+            4754880,
+            3535680,
+            1783080
+          ]
+        },
+        {
+          "fields": [
+            "card_6_title",
+            "card_6_body"
+          ],
+          "bounds": [
+            8077200,
+            4754880,
+            3535680,
+            1783080
+          ]
+        }
+      ]
+    },
+    "approach_phases": {
+      "slide": 4,
+      "fields": {
+        "section": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE APPROACH",
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 26.0,
+          "default": null,
+          "optional": false
+        },
+        "intro": {
+          "budget": 130,
+          "font_pt": 13.0,
+          "default": null,
+          "optional": false
+        },
+        "phase_1_label": {
+          "budget": 80,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": false
+        },
+        "phase_1_title": {
+          "budget": 65,
+          "font_pt": 19.0,
+          "default": null,
+          "optional": false
+        },
+        "phase_1_bullet_1": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": false
+        },
+        "phase_1_bullet_2": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "phase_1_bullet_3": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "phase_1_bullet_4": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "phase_2_label": {
+          "budget": 80,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": false
+        },
+        "phase_2_title": {
+          "budget": 65,
+          "font_pt": 19.0,
+          "default": null,
+          "optional": false
+        },
+        "phase_2_bullet_1": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": false
+        },
+        "phase_2_bullet_2": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "phase_2_bullet_3": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "phase_2_bullet_4": {
+          "budget": 80,
+          "font_pt": 11.5,
+          "default": null,
+          "optional": true
+        },
+        "takeaway": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": false
+        }
+      },
+      "groups": [
+        {
+          "fields": [
+            "phase_1_bullet_2"
+          ],
+          "bounds": [
+            548640,
+            2788920,
+            5440680,
+            3337560
+          ]
+        },
+        {
+          "fields": [
+            "phase_1_bullet_3"
+          ],
+          "bounds": [
+            548640,
+            2788920,
+            5440680,
+            3337560
+          ]
+        },
+        {
+          "fields": [
+            "phase_1_bullet_4"
+          ],
+          "bounds": [
+            548640,
+            2788920,
+            5440680,
+            3337560
+          ]
+        },
+        {
+          "fields": [
+            "phase_2_bullet_2"
+          ],
+          "bounds": [
+            6172200,
+            2788920,
+            5440680,
+            3337560
+          ]
+        },
+        {
+          "fields": [
+            "phase_2_bullet_3"
+          ],
+          "bounds": [
+            6172200,
+            2788920,
+            5440680,
+            3337560
+          ]
+        },
+        {
+          "fields": [
+            "phase_2_bullet_4"
+          ],
+          "bounds": [
+            6172200,
+            2788920,
+            5440680,
+            3337560
+          ]
+        }
+      ]
+    },
+    "results_three": {
+      "slide": 5,
+      "fields": {
+        "section": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE RESULTS",
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 28.0,
+          "default": null,
+          "optional": false
+        },
+        "period": {
+          "budget": 80,
+          "font_pt": 13.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_1_value": {
+          "budget": 12,
+          "font_pt": 56.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_1_label": {
+          "budget": 80,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_2_value": {
+          "budget": 12,
+          "font_pt": 56.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_2_label": {
+          "budget": 80,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_3_value": {
+          "budget": 12,
+          "font_pt": 56.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_3_label": {
+          "budget": 80,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "outcome_1_title": {
+          "budget": 65,
+          "font_pt": 17.0,
+          "default": null,
+          "optional": true
+        },
+        "outcome_1_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": true
+        },
+        "outcome_2_title": {
+          "budget": 65,
+          "font_pt": 17.0,
+          "default": null,
+          "optional": true
+        },
+        "outcome_2_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": true
+        },
+        "source": {
+          "budget": 140,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": false
+        }
+      },
+      "groups": [
+        {
+          "fields": [
+            "outcome_1_title",
+            "outcome_1_body"
+          ],
+          "bounds": [
+            548640,
+            4572000,
+            5394960,
+            1600200
+          ]
+        },
+        {
+          "fields": [
+            "outcome_2_title",
+            "outcome_2_body"
+          ],
+          "bounds": [
+            6217920,
+            4572000,
+            5394960,
+            1600200
+          ]
+        }
+      ]
+    },
+    "results_two": {
+      "slide": 6,
+      "fields": {
+        "section": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE RESULTS",
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 28.0,
+          "default": null,
+          "optional": false
+        },
+        "period": {
+          "budget": 80,
+          "font_pt": 13.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_1_value": {
+          "budget": 12,
+          "font_pt": 60.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_1_label": {
+          "budget": 80,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_1_detail": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_2_value": {
+          "budget": 12,
+          "font_pt": 60.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_2_label": {
+          "budget": 80,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_2_detail": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": false
+        },
+        "outcome_1_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "outcome_1_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": true
+        },
+        "outcome_2_title": {
+          "budget": 65,
+          "font_pt": 16.0,
+          "default": null,
+          "optional": true
+        },
+        "outcome_2_body": {
+          "budget": 260,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": true
+        },
+        "source": {
+          "budget": 140,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": false
+        }
+      },
+      "groups": [
+        {
+          "fields": [
+            "outcome_1_title",
+            "outcome_1_body"
+          ],
+          "bounds": [
+            548640,
+            4572000,
+            5394960,
+            1600200
+          ]
+        },
+        {
+          "fields": [
+            "outcome_2_title",
+            "outcome_2_body"
+          ],
+          "bounds": [
+            6217920,
+            4572000,
+            5394960,
+            1600200
+          ]
+        }
+      ]
+    },
+    "results_hero": {
+      "slide": 7,
+      "fields": {
+        "section": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE RESULTS",
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 26.0,
+          "default": null,
+          "optional": false
+        },
+        "period": {
+          "budget": 80,
+          "font_pt": 13.0,
+          "default": null,
+          "optional": false
+        },
+        "hero_value": {
+          "budget": 12,
+          "font_pt": 72.0,
+          "default": null,
+          "optional": false
+        },
+        "hero_label": {
+          "budget": 80,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": false
+        },
+        "hero_detail": {
+          "budget": 80,
+          "font_pt": 13.0,
+          "default": null,
+          "optional": false
+        },
+        "metric_1_value": {
+          "budget": 12,
+          "font_pt": 22.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_1_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_1_detail": {
+          "budget": 80,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_2_value": {
+          "budget": 12,
+          "font_pt": 30.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_2_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_2_detail": {
+          "budget": 80,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_3_value": {
+          "budget": 12,
+          "font_pt": 30.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_3_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_3_detail": {
+          "budget": 80,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_4_value": {
+          "budget": 12,
+          "font_pt": 30.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_4_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": true
+        },
+        "metric_4_detail": {
+          "budget": 80,
+          "font_pt": 10.0,
+          "default": null,
+          "optional": true
+        },
+        "source": {
+          "budget": 140,
+          "font_pt": 9.5,
+          "default": null,
+          "optional": false
+        }
+      },
+      "groups": [
+        {
+          "fields": [
+            "metric_1_value",
+            "metric_1_label",
+            "metric_1_detail"
+          ],
+          "bounds": [
+            548640,
+            4434840,
+            2628900,
+            1828800
+          ]
+        },
+        {
+          "fields": [
+            "metric_2_value",
+            "metric_2_label",
+            "metric_2_detail"
+          ],
+          "bounds": [
+            3360420,
+            4434840,
+            2628900,
+            1828800
+          ]
+        },
+        {
+          "fields": [
+            "metric_3_value",
+            "metric_3_label",
+            "metric_3_detail"
+          ],
+          "bounds": [
+            6172200,
+            4434840,
+            2628900,
+            1828800
+          ]
+        },
+        {
+          "fields": [
+            "metric_4_value",
+            "metric_4_label",
+            "metric_4_detail"
+          ],
+          "bounds": [
+            8983980,
+            4434840,
+            2628900,
+            1828800
+          ]
+        }
+      ]
+    },
+    "closing": {
+      "slide": 8,
+      "fields": {
+        "section": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "OUR UNFAIR ADVANTAGE",
+          "optional": false
+        },
+        "headline": {
+          "budget": 80,
+          "font_pt": 30.0,
+          "default": null,
+          "optional": false
+        },
+        "advantage": {
+          "budget": 220,
+          "font_pt": 22.0,
+          "default": null,
+          "optional": false
+        },
+        "relevance_or_quote": {
+          "budget": 220,
+          "font_pt": 14.0,
+          "default": null,
+          "optional": true
+        },
+        "team_label": {
+          "budget": 80,
+          "font_pt": 11.0,
+          "default": "THE TEAM",
+          "optional": false
+        },
+        "team_title": {
+          "budget": 65,
+          "font_pt": 18.0,
+          "default": "9Rooftops Digital Experience",
+          "optional": false
+        },
+        "team_intro": {
+          "budget": 80,
+          "font_pt": 12.0,
+          "default": null,
+          "optional": true
+        },
+        "team_1": {
+          "budget": 45,
+          "font_pt": 12.5,
+          "default": null,
+          "optional": false
+        },
+        "team_2": {
+          "budget": 45,
+          "font_pt": 12.5,
+          "default": null,
+          "optional": true
+        },
+        "team_3": {
+          "budget": 45,
+          "font_pt": 12.5,
+          "default": null,
+          "optional": true
+        },
+        "team_4": {
+          "budget": 45,
+          "font_pt": 12.5,
+          "default": null,
+          "optional": true
+        },
+        "team_5": {
+          "budget": 45,
+          "font_pt": 12.5,
+          "default": null,
+          "optional": true
+        },
+        "team_6": {
+          "budget": 45,
+          "font_pt": 12.5,
+          "default": null,
+          "optional": true
+        },
+        "website_dates": {
+          "budget": 140,
+          "font_pt": 11.0,
+          "default": null,
+          "optional": false
+        }
+      },
+      "groups": [
+        {
+          "fields": [
+            "team_2"
+          ],
+          "bounds": [
+            7863840,
+            4023360,
+            3749040,
+            320040
+          ]
+        },
+        {
+          "fields": [
+            "team_3"
+          ],
+          "bounds": [
+            7863840,
+            4389120,
+            3749040,
+            320040
+          ]
+        },
+        {
+          "fields": [
+            "team_4"
+          ],
+          "bounds": [
+            7863840,
+            4754880,
+            3749040,
+            320040
+          ]
+        },
+        {
+          "fields": [
+            "team_5"
+          ],
+          "bounds": [
+            7863840,
+            5120640,
+            3749040,
+            320040
+          ]
+        },
+        {
+          "fields": [
+            "team_6"
+          ],
+          "bounds": [
+            7863840,
+            5486400,
+            3749040,
+            320040
+          ]
+        }
+      ]
+    }
+  }
+}

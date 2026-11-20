@@ -1,0 +1,4 @@
+interface:
+  display_name: "9Rooftops Case Studies"
+  short_description: "Create consistent, editable client case-study decks."
+  default_prompt: "Use $rtp-casestudies to turn my case brief and supporting evidence into a consistent 9Rooftops PowerPoint case study."

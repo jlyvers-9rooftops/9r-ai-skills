@@ -9,6 +9,7 @@ they need as the catalog grows.
 | Plugin | Skill | Purpose |
 | --- | --- | --- |
 | `alc-dashboard` | `alcosan-municipal-dashboard` | Build ALCOSAN executive dashboards from Municipal Meeting Monitor CSV reports. |
+| `rtp-casestudies` | `rtp-casestudies` | Create editable, client-colored PowerPoint case studies using the shared 9Rooftops framework. |
 
 The dashboard skill includes its Python generator, self-contained HTML template
 and data-processing reference. The generator uses Python 3 and the standard
@@ -63,6 +64,25 @@ Provide the current CSV in the request. The skill writes results beneath the
 project's `web/ALC-MeetingMonitorDashboard-YYYYMMDD/` folder. Reviewed event data
 and PDF production follow the packaged skill's instructions. Keep client exports
 and generated reports in the working project rather than this marketplace repo.
+
+## Use the case-study skill
+
+Install **9Rooftops Case Studies** from this marketplace, then provide a case brief
+and supporting files:
+
+> Use $rtp-casestudies to create a five-slide PowerPoint case study from this brief.
+
+The skill defaults to a leave-behind that also supports live pitches. It uses
+Georgia/Calibri typography, a shared story framework with controlled variants,
+and client brand colors. Supplied files establish the work and results; limited
+web lookup can establish official branding and general context. Missing or
+conflicting claims become questions rather than invented proof.
+
+The packaged Python 3 builder has no third-party dependencies. It produces native
+editable PowerPoint text/shapes and stores sources in speaker notes. Native
+PowerPoint or another compatible renderer is needed for final visual approval;
+structural validation alone is explicitly reported as such. Original example
+decks and the input brief remain in `plugins/rtp-casestudies/`.
 
 ## Add another skill
 
