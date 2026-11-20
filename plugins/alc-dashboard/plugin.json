@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "alc-dashboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate ALCOSAN municipal meeting dashboards from Municipal Meeting Monitor CSV reports.",
   "author": {
     "name": "9R Team"

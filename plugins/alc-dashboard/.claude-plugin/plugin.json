@@ -1,0 +1,11 @@
+{
+  "name": "alc-dashboard",
+  "displayName": "ALCOSAN Dashboard",
+  "version": "1.0.1",
+  "description": "Generate ALCOSAN municipal meeting dashboards from Municipal Meeting Monitor CSV reports.",
+  "author": {
+    "name": "9R Team"
+  },
+  "repository": "https://github.com/jlyvers-9rooftops/9r-ai-skills",
+  "keywords": ["alcosan", "dashboard", "municipal-meetings"]
+}

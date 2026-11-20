@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "9r-ai-skills",
+  "description": "Shared AI skills for the 9Rooftops team.",
+  "owner": {
+    "name": "9R Team"
+  },
+  "plugins": [
+    {
+      "name": "alc-dashboard",
+      "description": "Generate ALCOSAN municipal meeting dashboards from Municipal Meeting Monitor CSV reports.",
+      "author": {
+        "name": "9R Team"
+      },
+      "category": "productivity",
+      "keywords": ["alcosan", "dashboard", "municipal-meetings"],
+      "source": "./plugins/alc-dashboard"
+    },
+    {
+      "name": "rtp-casestudies",
+      "description": "Create consistent, editable 9Rooftops client case-study PowerPoint files from briefs and supporting evidence.",
+      "author": {
+        "name": "9R Team"
+      },
+      "category": "productivity",
+      "keywords": ["case-study", "powerpoint", "9rooftops", "pitch", "rfp"],
+      "source": "./plugins/rtp-casestudies"
+    }
+  ]
+}

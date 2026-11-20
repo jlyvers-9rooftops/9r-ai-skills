@@ -1,0 +1,11 @@
+{
+  "name": "rtp-casestudies",
+  "displayName": "9Rooftops Case Studies",
+  "version": "1.0.1",
+  "description": "Create consistent, editable 9Rooftops client case-study PowerPoint files from briefs and supporting evidence.",
+  "author": {
+    "name": "9R Team"
+  },
+  "repository": "https://github.com/jlyvers-9rooftops/9r-ai-skills",
+  "keywords": ["case-study", "powerpoint", "9rooftops", "pitch", "rfp"]
+}

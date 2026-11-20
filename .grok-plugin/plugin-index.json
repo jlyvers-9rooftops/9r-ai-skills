@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "plugins": {
+    "alc-dashboard": {
+      "components": {
+        "skills": [
+          {
+            "name": "alcosan-municipal-dashboard",
+            "description": "Generate ALCOSAN executive dashboards from Municipal Meeting Monitor CSV reports, including sentiment, keyword mentions, tracked topic selections, meeting profiles, community events, and a keyword cloud. Use for ALCOSAN municipal meeting dashboards and updates to those reports."
+          }
+        ]
+      }
+    },
+    "rtp-casestudies": {
+      "components": {
+        "skills": [
+          {
+            "name": "rtp-casestudies",
+            "description": "Create editable 9Rooftops client case-study PowerPoint files with consistent typography, client-colored layouts, and evidence-backed storytelling. Use for case-study decks, RFP case-study inserts, and pitch leave-behinds."
+          }
+        ]
+      }
+    }
+  }
+}
